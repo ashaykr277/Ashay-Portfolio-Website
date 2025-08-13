@@ -22,7 +22,7 @@ const Projects = () => {
               tech="Open CV" />
 
             <ProjectCard img="./assets/portfolio-site.jpg"
-            gitlink="https://github.com/shreya276/" target='_blank'
+            gitlink="https://github.com/shreya276/Shreya-Portfolio-Website" target='_blank'
               title="Portfolio Website"
               desc="it is is a responsive and interactive personal website built with React.js to showcase professional skills, and projects. Designed with modern UI/UX approach, serving as a digital identity for personal branding and career opportunities."
               tech="React JS" />
