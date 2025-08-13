@@ -21,7 +21,7 @@ const SkillsSet = () => {
                                 </div>
                             </div>
 
-                            <hr />
+                            {/* <hr /> */}
                             <div className='skill-container'>
 
                                 <div className="domain">
@@ -33,7 +33,7 @@ const SkillsSet = () => {
                                 </div>
                             </div>
 
-                            <hr />
+                            {/* <hr /> */}
                             <div className='skill-container'>
 
                                 <div className="domain">
@@ -44,7 +44,7 @@ const SkillsSet = () => {
                                     <p>Hibernate</p>
                                 </div>
                             </div>
-                            <hr />
+                            {/* <hr /> */}
                             <div className='skill-container'>
 
                                 <div className="domain">
@@ -54,7 +54,7 @@ const SkillsSet = () => {
                                     <p>MySQL</p>
                                 </div>
                             </div>
-                            <hr />
+                            {/* <hr /> */}
                             <div className='skill-container'>
 
                                 <div className="domain">
@@ -64,7 +64,7 @@ const SkillsSet = () => {
                                 </div>
                             </div>
 
-                            <hr />
+                            {/* <hr /> */}
                             <div className='skill-container'>
 
                                 <div className="domain">
