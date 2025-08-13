@@ -23,13 +23,13 @@ const About = () => {
                     <i class='bx bx-envelope' ></i><span>shreyamishratulip@gmail.com</span>
                   </div>
                   <div className="degree">
-                    <i class='bx bxs-graduation' ></i><span>B.Tech in Computer Science & Engineering</span>
+                    <i class='bx bxs-graduation' ></i><span>B.Tech - Computer Science Engineering</span>
                   </div>
                 </div>
 
                 <div className='details details-right'>
                   <div className="call">
-                    <i class='bx bx-phone-call' ></i><span>+91 ******7867</span>
+                    <i class='bx bx-phone-call' ></i><span>+91 7909007867</span>
                   </div>
                   <div className="age">
                     <i class='bx bx-calendar' ></i><span>22+</span>
