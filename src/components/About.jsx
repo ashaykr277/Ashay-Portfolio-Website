@@ -81,7 +81,7 @@ const About = () => {
 
                       <br />
                       <li>
-                        <p className='institute' >JLN Memorial Secondary School</p>
+                        <p className='institute' >JLN Memorial Secondary <br /> School</p>
                         <p className='course'>Matriculation</p>
                         <p className='year'>2018</p>
                       </li>

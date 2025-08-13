@@ -42,8 +42,6 @@ const SkillsSet = () => {
                                     <p>JDBC</p>
                                     <p>Spring-boot</p>
                                     <p>Hibernate</p>
-                                    <p>JDBC API</p>
-
                                 </div>
                             </div>
                             <hr />
@@ -52,7 +50,7 @@ const SkillsSet = () => {
                                 <div className="domain">
                                     <i class='bx bx-code' ></i><span>Database : </span>
                                     
-                                    <p>Oracle 10g</p>
+                                    <p>Oracle SQL</p>
                                     <p>MySQL</p>
                                 </div>
                             </div>
