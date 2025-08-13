@@ -29,7 +29,7 @@ const About = () => {
 
                 <div className='details details-right'>
                   <div className="call">
-                    <i class='bx bx-phone-call' ></i><span>+91 ******7876</span>
+                    <i class='bx bx-phone-call' ></i><span>+91 ******7867</span>
                   </div>
                   <div className="age">
                     <i class='bx bx-calendar' ></i><span>22+</span>
