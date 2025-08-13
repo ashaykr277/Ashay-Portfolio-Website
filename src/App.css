@@ -1,0 +1,731 @@
+:root {
+    ---primary--color: #2563EB;
+    ---secondary--color: #EFF5FF;
+    ---theme--color: #8A29EE;
+
+    ---accent--color: #d1d1d1;
+}
+
+/* ------------------------------------ */
+
+.img1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.img2 {
+    position: absolute;
+    top: 300px;
+    left: 10px;
+    z-index: -1;
+}
+
+.img3 {
+    position: absolute;
+    top: 1000px;
+    right: 250px;
+    z-index: -1;
+}
+
+.img4 {
+    position: absolute;
+    top: 1500px;
+    left: 100px;
+    z-index: -1;
+}
+
+/* ------------------------------------ */
+
+header {
+    width: 98.15vw;
+    background-color: rgba(255, 255, 255, 0.212);
+    backdrop-filter: blur(10px);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border: 2px solid var(---primary--color);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 10px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+header .close-btn {
+    display: none;
+}
+
+
+ul li {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.active-link {
+
+    color: rgb(33, 129, 255);
+}
+
+button {
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.hire {
+    font-family: 'Outfit';
+    font-size:15px;
+    font-weight: 500;
+    color: white;
+    padding: 15px 30px;
+    /* border-radius: 50px;     */
+    background-color: rgb(28, 108, 255);
+    transition: all 0.2s ease;
+}
+.hire:hover{
+    border-radius: 50px;
+    background-color: rgb(71, 135, 255);
+}
+
+.menu {
+    display: none;
+}
+
+.nav-ele {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* ! ---------------------S - Logo animation ------------------------ */
+.s-logo {
+    height: 50px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+
+}
+
+.s-logo img {
+    width: 80px;
+    position: absolute;
+    display: flex;
+}
+
+.S {
+    width: 50px;
+    animation: rotateSmoothStep 7s ease infinite;
+}
+
+@keyframes rotateSmoothStep {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    20% {
+        transform: rotate(-90deg);
+    }
+
+    25% {
+        transform: rotate(-90deg);
+    }
+
+    45% {
+        transform: rotate(-180deg);
+    }
+
+    50% {
+        transform: rotate(-180deg);
+    }
+
+    70% {
+        transform: rotate(-270deg);
+    }
+
+    75% {
+        transform: rotate(-270deg);
+    }
+
+    95% {
+        transform: rotate(-360deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+/*! ---------------------Section------------------------ */
+section {
+    /* border: 2px solid black; */
+    border-radius: 10px;
+
+    margin: 0px 10px;
+    margin-top: 100px;
+    padding: 150px 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    /* padding: 10px 30px; */
+}
+
+section h1 {
+    font-size: 40px;
+    text-align: start;
+}
+
+.about-section {
+border-radius: 10px;
+    margin: 0px 10px;
+    margin-top: 70px;
+    padding: 20px 150px;
+
+}
+
+.about-section .heading {
+    text-align: center;
+}
+
+
+
+.btns {
+    display: flex;
+    gap: 10px;
+}
+
+/* .marq {
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 10px;
+    position: fixed;
+    width: 99vw;
+    background-color: blue;
+} */
+
+.left {
+    text-align: start;
+    font-size: 30px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+
+    gap: 20px;
+    /* padding: 10px; */
+}
+
+.left h1 {
+    font-size: 75px;
+}
+
+.left .profession {
+    font-weight: 600;
+    color: #2563EB;
+    font-size: 12px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.left span {
+    color: rgb(0, 132, 255);
+}
+
+.left p {
+    margin-top: 10px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/*! -----------Section - buttons--------------- */
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.btns button {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Outfit';
+    padding: 15px 40px;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.2s ease;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+button i {
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.btns {
+    margin-top: 25px;
+}
+
+.btn1 {
+    background-color: var(---primary--color);
+    color: white;
+
+}
+
+.btn1:hover {
+    background-color: rgb(67, 126, 255);
+    /* transform: scale(1.1); */
+}
+
+.btn2:hover {
+    background-color: rgb(190, 190, 190);
+}
+
+.btn2 {
+    background-color: rgb(235, 235, 235);
+    /* background-color: var(---primary--color); */
+    color: var(---primary--color);
+}
+
+/*! -----------Section - Image--------------- */
+
+.right {
+    height: 400px;
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+}
+
+.image img {
+    position: absolute;
+    z-index: 1;
+}
+
+.curve {
+    bottom: 200px;
+    width: 600px;
+
+}
+
+.shreya {
+    margin-bottom: 100px;
+    width: 800px;
+}
+
+/*! --------------------  Marquee ------------------*/
+.marquee {
+    width: 99vw;
+    bottom: 150px;
+    position: absolute;
+    overflow-x: hidden;
+    white-space: nowrap;
+    /* background: var(---primary--color); */
+    background: #8A29EE;
+    padding: 10px 0;
+    z-index: 5;
+}
+
+.marquee-content i {
+    font-size: 20px;
+    color: white;
+}
+
+.marquee-content h2 {
+    display: inline-block;
+    margin: 0 40px;
+    font-size: 24px;
+    color: white;
+}
+
+
+.marquee-content {
+    display: inline-flex;
+    align-items: center;
+    animation: scrollMarquee 20s linear infinite;
+}
+
+.marquee-content h2 {
+    flex: 0 0 auto;
+    /* prevent shrinking */
+    margin: 0 40px;
+    font-size: 24px;
+    color: white;
+}
+
+@keyframes scrollMarquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* -------------------- Skills Icons Marquee ------------------*/
+
+.skill-box {
+    overflow: hidden;
+    width: 100%;
+    padding: 10px 0;
+    background: transparent;
+    /* change if needed */
+}
+
+.icon-packs {
+    display: inline-flex;
+    align-items: center;
+    gap: 40px;
+    white-space: nowrap;
+    animation: scrollIcons 25s linear infinite;
+}
+
+.icon-packs i {
+    font-size: 50px;
+    /* adjust icon size */
+    flex: 0 0 auto;
+}
+
+@keyframes scrollIcons {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* Optional: pause on hover */
+.skill-box:hover .icon-packs {
+    animation-play-state: paused;
+}
+
+
+.profession-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: max-content;
+    background-color: white;
+    /* border: 1px solid var(---primary--color);    */
+    box-shadow: 0 20px 60px rgb(161, 161, 161);
+    border-radius: 5px;
+}
+
+.profession-card {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.profession-card i {
+    color: var(---primary--color);
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.card1 {
+    position: absolute;
+    top: 290px;
+    right: 610px;
+}
+
+
+.card2 {
+    position: absolute;
+    bottom: 250px;
+    right: 200px;
+    z-index: 5;
+}
+
+.card2:hover {
+    transition: all 0.2s ease;
+    transform: scale(1.1);
+    border: 1px solid white;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.384);
+    background-color: #ffffffaf;
+    backdrop-filter: blur(10px);
+    /* color: red; */
+}
+
+.card2:hover i {
+    transition: all 0.2s ease;
+    transform: scale(1.2);
+    /* color: red; */
+}
+
+.card4 {
+    position: absolute;
+    bottom: 320px;
+    right: 700px;
+    z-index: 5;
+}
+
+.card4:hover {
+    transition: all 0.2s ease;
+    transform: scale(1.2);
+    border: 1px solid white;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.384);
+    background-color: #ffffffaf;
+    backdrop-filter: blur(10px);
+    /* color: red; */
+}
+
+.card4:hover i {
+    transition: all 0.2s ease;
+    transform: scale(1.2);
+    color: red;
+}
+
+
+
+
+/*! ----------Responsive Design---------- */
+
+@media (max-width: 480px) {
+    header {
+        width: 96vw;
+    }
+
+    header .close-btn {
+        display: inline-block;
+    }
+
+    /* ------------------------ */
+    .nav-ele .close-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        margin: 5px;
+        padding: 10px;
+        /* width: max-content; */
+        font-size: 30px;
+        text-align: end;
+        /* background-color: red; */
+    }
+    
+
+    /* ------------Footer------------ */
+    .footer-content h1 {
+        font-size: 32px;
+    }
+
+    /* ------------------------ */
+    .nav-ele {
+        flex-direction: column;
+        border: 2px solid rgba(78, 78, 78, 0.966);
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        backdrop-filter: blur(10px);
+        padding: 20px;
+        width: 200px;
+        height: 30vh;
+        position: absolute;
+        top: 0;
+        right: -250px;
+
+        z-index: 6;
+        transition: right 0.3s ease;
+
+    }
+    
+
+    body.dark-mode .nav-ele {
+        /* border: 1px solid red; */
+        background-color: rgba(1, 1, 70, 0.932);
+        backdrop-filter: blur(10px);
+    }
+
+    .nav-ele.active {
+        right: 0;
+        /* show when active */
+    }
+
+    .nav-ele .close-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 5px;
+        padding: 10px;
+        font-size: 30px;
+        text-align: end;
+        cursor: pointer;
+    }
+
+
+    section {
+        width: 96vw;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+        gap: 30px;
+        padding: 20px 10px;
+    }
+
+    section h1 {
+        text-align: center;
+    }
+
+    section .heading {
+        font-size: 30px;
+    }
+
+    .profession {
+        /* font-weight: 600; */
+        /* color: #2563EB; */
+        font-size: 12px;
+        /* letter-spacing: 5px; */
+        text-transform: uppercase;
+    }
+
+    .hire {
+        display: none;
+    }
+
+    .menu {
+        border: 1px solid var(---primary--color);
+        display: block;
+        background-color: #ffffff;
+    }
+    
+
+    .left {
+        text-align: center;
+        font-size: 50px;
+        align-items: center;
+    }
+
+    .marq {
+        position: absolute;
+        padding: 10px 5px;
+        width: 96vw;
+    }
+
+    .btns {
+        flex-direction: column;
+        justify-content: start;
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    /* --------- Marquee ---------- */
+    .marquee {
+        width: 100vw;
+        background: #8A29EE;
+        position: absolute;
+        overflow: hidden;
+        bottom: 360px;
+        left: 0;
+        /* white-space: nowrap; */
+        padding: 10px 0;
+        z-index: 1;
+    }
+
+    /* ---------Right Image---------- */
+    .right {
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .image {
+        height: 400px;
+        width: 400px;
+    }
+
+    .image img {
+        position: absolute;
+        z-index: 1;
+    }
+
+    .curve {
+        width: 80%;
+        bottom: 0;
+        /* width: 200px; */
+        left: 50px;
+    }
+
+    .shreya {
+        margin-bottom: 20px;
+        width: 400px;
+    }
+
+    /* ---------- Cards ---------- */
+
+    .profession-card {
+        font-weight: 500;
+        font-size: 15px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+        padding: 10px;
+
+        width: max-content;
+        background-color: white;
+        /* border: 1px solid var(---primary--color);    */
+        box-shadow: 0 20px 60px rgb(161, 161, 161);
+        border-radius: 5px;
+    }
+
+    .profession-card i {
+        color: var(---primary--color);
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .card1 {
+        position: absolute;
+        top: 150px;
+        right: 50px;
+    }
+
+    .card2 {
+        position: absolute;
+        bottom: 460px;
+        right: 10px;
+        z-index: 2;
+    }
+
+    .card4 {
+        position: absolute;
+        bottom: 530px;
+        left: 20px;
+        z-index: 2;
+    }
+
+
+}

@@ -1,0 +1,55 @@
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    gap: 30px;
+    padding: 80px 0;
+    background-color: var(---secondary--color);
+}
+.footer-content h1{
+    text-align: center;
+}
+
+
+.btn button {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Outfit';
+    padding: 15px 40px;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.2s ease;
+    color: white;
+    background-color: var(---primary--color);
+}
+
+.footer-section{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-section p{
+    font-weight: 500;
+    padding: 10px 0;
+}
+.footer-section i{
+    padding: 10px 0;
+    /* padding: 20px 0; */
+    font-size: 22px;
+    color: white;
+}
+.footer-section i:hover{
+    transition: all 0.2s ease;
+    color: var(---theme--color);
+}

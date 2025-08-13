@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  background-color: white;
+  font-family: "Outfit", sans-serif;
+}
+
+.heading{
+  font-size: 30px;
+}
+li{
+  color: black;
+}
+/* ---------Dark Mode Colour Theme--------- */
+/*! ------------------- Dark Mode / Light Mode----------------- */
+.theme-toggle {
+    color: grey;
+  background: none;
+  border: 1px solid rgba(0, 110, 255, 0.514);
+  /* border: none; */
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  padding: 22px;
+  border-radius: 50%;
+
+}
+.right-btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.right-btn i {
+    padding: 0;
+   /* font-size: 10px; */
+}
+body.dark-mode .active-link {
+
+    color: rgb(0, 195, 255);
+}
+body.dark-mode .profession-card{
+  color: black;
+  box-shadow: none;
+}
+body.dark-mode section{
+  border: 1px solid rgba(255, 255, 255, 0.233);
+}
+
+/* Light Mode (Default) */
+body {
+  background-color: white;
+  /* color: black;   */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: hsl(238, 100%, 6%); /* Dark grey */
+  color: white;
+}
+body.dark-mode a {
+  color: white;
+}
+
+/* Optional: Dark header & nav menu */
+body.dark-mode header {
+  background-color: #6b6b6b4b;
+  border: 1px solid rgba(255, 255, 255, 0.253);
+}
+
+body.dark-mode .nav-ele {
+  /* background-color: #3a3a3a; */
+  border-color: rgba(255, 255, 255, 0.2);
+}
+body.dark-mode .nav-ele ul li {
+  /* background-color: #3a3a3a; */
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* --------Bottom------ */
+body.dark-mode .footer-content{
+  /* color: black; */
+  border: 2px solid rgba(226, 226, 255, 0.288);
+  background-color: rgba(130, 121, 255, 0.253);
+  backdrop-filter: blur(10px);
+}
+body.dark-mode .footer-section i:hover{
+    transition: all 0.2s ease;
+    color: var(---secondary--color);
+}
+body.dark-mode .footer-section i:hover{
+    transition: all 0.2s ease;
+    color: var(---theme--color);
+}
+
+
+
+
+/*! ------ About.jsx------ */
+body.dark-mode .right-side>p{
+  color: rgb(167, 167, 167);
+}
+body.dark-mode .edu-details ul li p{
+  color: white;
+}
+body.dark-mode .edu-details ul li .course{
+  color: rgb(182, 182, 182)
+}
+body.dark-mode .skill-box .icon-packs i{
+  background-color: #ffffff1e;
+  border: 1px solid rgba(255, 255, 255, 0.322);
+}
+body.dark-mode .domain p{
+  background-color: rgba(255, 255, 255, 0.144);
+  color: white;
+}
+body.dark-mode .edu-details ul li {
+  border-left: 2px solid rgba(255, 255, 255, 0.377);
+}
+
+/*! ------ Projects.jsx------ */
+body.dark-mode .prj-container {
+  /* border: 2px solid var(---primary--color); */
+  border: 1px solid rgba(255, 255, 255, 0.438);
+  /* background-color: rgba(255, 255, 255, 0.055); */
+  backdrop-filter: blur(20px);
+}
+body.dark-mode .texts{
+  color: rgb(0, 162, 255);
+}
+
+/*! ------ Projects.jsx------ */
+body.dark-mode .contact-form input{
+  /* padding: 25px; */
+  background-color: rgba(86, 159, 255, 0.096);
+
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+body.dark-mode .contact-form textarea{
+  background-color: rgba(86, 159, 255, 0.096);
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+
+ }

@@ -1,0 +1,252 @@
+.about-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* justify-content: space-between; */
+
+    border: none;
+    border-radius: 10px;
+
+    margin-top: 100px;
+
+}
+.about-section h1{
+    font-size: 40px;
+
+}
+
+
+/* ---------------------- */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+   
+}
+
+.info {
+    border: 1px solid var(---primary--color);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+     margin-top: 20px;
+    /* margin-top: 100px; */
+}
+.img-info{
+    border: none;
+    width: 20%;
+}
+.img-info2{
+    margin: 0 20px;
+    padding-left: 0;
+    border: none;
+    width: 40%;
+}
+.about-heading {
+
+    background-color: var(---primary--color);
+}
+
+.about-section .page-heading {
+    font-size: 50px;
+    text-align: center;
+}
+
+.about-section .about-heading {
+    width: 100%;
+    color: white;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 10px;
+    border-bottom: 2px solid;
+    /* color: var(---primary--color); */
+}
+
+.face-curve {
+    /* border: 2px solid black; */
+    border-radius: 63% 37% 31% 69% / 42% 55% 45% 58%;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    width: 100%;
+    padding: 20px 0;
+    /* border: 2px solid rgb(255, 0, 0); */
+
+}
+
+.right-side p {
+    font-size: 16px;
+    color: rgb(66, 66, 66);
+    /* border: 2px solid; */
+
+}
+
+.right-side i {
+    color: var(---primary--color);
+    font-size: 25px;
+}
+
+.right-side span {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.details {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.details-left>div {
+    display: flex;
+    align-items: center;
+}
+
+.details-right>div {
+    display: flex;
+    align-items: center;
+}
+
+.personal-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+
+.personal-info .details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sub-heading {
+    font-size: 30px;
+}
+
+.edu {
+    font-size: 22px;
+    color: var(---primary--color);
+}
+
+.course {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+ul li .institute {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.edu-details ul li {
+    /* width: max-content; */
+    /* margin-top: 10px; */
+    /* margin-left: 50px; */
+    padding: 10px 40px;
+    border-left: 2px solid rgba(0, 0, 0, 0.377);
+}
+
+p {
+    /* margin-top: 5px; */
+
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li .year {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+.skill-container .domain {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+}
+.icon-packs i {
+    font-size: 50px;
+    padding: 8px;
+    margin-top: 10px;
+    /* width: 100%; */
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.548);
+}
+
+.domain p{
+    font-size: 18px;
+    color: rgb(111, 0, 255);
+    padding: 5px;
+    /* border: 1px solid rgba(111, 0, 255, 0.568); */
+    border: 1px solid #6c63ff;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.domain span{
+    
+    font-size: 20px;
+    font-weight: 700;
+    /* color: #6c63ff; */
+}
+.domain div{
+    /* display: flex; */
+}
+/*! ----------Responsive Design---------- */
+
+@media (max-width: 480px) {
+    .personal-info {
+        width: max-content;
+        flex-direction: column;
+    }
+    .info{
+        /* background-color: red; */
+        width: 96vw;
+        
+    }
+    .about-section .heading{
+        width: max-content;
+    }
+    .domain{
+        flex-wrap: wrap;
+        /* gap: 10px; */
+    }
+    .domain p{
+        font-size: 15px;
+        transform: translateX(-10px);
+    }
+    .domain span{
+        font-size: 15px;
+        transform: translateX(-15px);
+    }
+    .domain i{
+    }
+
+    ul li .institute {
+        word-wrap: break-word;
+        color: black;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .img-info{
+        display: none;
+    }
+    .img-info2{
+        display: none;
+    }
+
+    
+
+}
