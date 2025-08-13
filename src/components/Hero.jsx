@@ -25,7 +25,7 @@ const Hero = () => {
         <div className="left">
           <p className='profession'>Software Engineer </p>
           <h1>Hello, I'm <span>Shreya Mishra</span> </h1>
-          <p>A passionate software developer with a knack for building communities and fostering an healthy environment to learn and grow.</p>
+          <p>A passionate software engineer and full stack developer crafting impactful, user-focused digital solutions.</p>
           <div className="btns">
             <button className="btn1" onClick={goToContact}>Contact <i class='bx bx-mail-send' ></i></button>
             <button className="btn2" onClick={downloadPDF}>Resume <span><i class='bx bx-download'></i></span></button>

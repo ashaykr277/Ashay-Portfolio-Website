@@ -17,7 +17,7 @@ const Contact = () => {
                                 <i class='bx bxs-envelope' ></i><span>shreyamishratulip@gmail.com</span>
                             </div>
                             <div className="num">
-                                <i class='bx bxs-phone-call' ></i><span>+91 ******7867</span>
+                                <i class='bx bxs-phone-call' ></i><span>+91-7909007867</span>
 
                             </div>
                             <div className="loc">
