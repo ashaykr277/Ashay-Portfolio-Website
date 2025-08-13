@@ -644,7 +644,7 @@ button i {
         background: #8A29EE;
         position: absolute;
         overflow: hidden;
-        bottom: 360px;
+        bottom: 300px;
         left: 0;
         /* white-space: nowrap; */
         padding: 10px 0;
@@ -715,14 +715,14 @@ button i {
 
     .card2 {
         position: absolute;
-        bottom: 460px;
+        bottom: 380px;
         right: 10px;
         z-index: 2;
     }
 
     .card4 {
         position: absolute;
-        bottom: 530px;
+        bottom: 480px;
         left: 20px;
         z-index: 2;
     }
