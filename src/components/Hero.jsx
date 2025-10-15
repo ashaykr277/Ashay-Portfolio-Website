@@ -30,7 +30,7 @@ const Hero = () => {
         <div className="right">
           <div className='image'>
             <img className="curve" src="curve.png" alt="" width="400px" />
-            <img className="shreya" src="ashay-profile.png" alt=""/>
+            <img className="shreya" src="Ashay-profile.png" alt=""/>
             {/* <img className="shreya" src="shreya-profile.png" alt="" width="500px" /> */}
           </div>
         </div>
