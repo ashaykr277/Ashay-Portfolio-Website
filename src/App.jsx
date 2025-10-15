@@ -7,7 +7,8 @@ import Contact from './components/Contact'
 import Projects from './components/Project'
 import Footer from './components/Footer'
 import Bottom from './components/Bottom'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+// import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const route = createBrowserRouter([
   {

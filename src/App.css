@@ -114,8 +114,9 @@ button {
 }
 
 .s-logo img {
-    width: 80px;
+    width: 54px;
     position: absolute;
+    margin-left: 10px;
     display: flex;
 }
 
@@ -336,8 +337,8 @@ button i {
 }
 
 .shreya {
-    margin-bottom: 100px;
-    width: 800px;
+    margin-bottom: 70px;
+    width: 550px;
 }
 
 /*! --------------------  Marquee ------------------*/
@@ -677,8 +678,8 @@ button i {
     }
 
     .shreya {
-        margin-bottom: 20px;
-        width: 400px;
+        margin-bottom: -20px;
+        width: 320px;
     }
 
     /* ---------- Cards ---------- */
@@ -709,7 +710,7 @@ button i {
 
     .card1 {
         position: absolute;
-        top: 150px;
+        top: 140px;
         right: 50px;
     }
 

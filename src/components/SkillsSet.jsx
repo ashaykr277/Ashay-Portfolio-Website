@@ -17,7 +17,7 @@ const SkillsSet = () => {
                                     <i class='bx bx-code'></i><span>Languages : </span>
                                     <p>Java</p>
                                     <p>Python</p>
-                                    <p>C</p>
+                                    
                                 </div>
                             </div>
 
@@ -30,6 +30,7 @@ const SkillsSet = () => {
                                     <p>HTML</p>
                                     <p>CSS</p>
                                     <p>JavaScript</p>
+                                    <p>React.js</p>
                                 </div>
                             </div>
 
@@ -39,7 +40,7 @@ const SkillsSet = () => {
                                 <div className="domain">
 
                                     <i class='bx bx-code' ></i><span>Back-end : </span>
-                                    <p>JDBC</p>
+                                    <p>Node.js</p>
                                     <p>Spring-boot</p>
                                     <p>Hibernate</p>
                                 </div>
@@ -50,8 +51,8 @@ const SkillsSet = () => {
                                 <div className="domain">
                                     <i class='bx bx-code' ></i><span>Database : </span>
                                     
-                                    <p>Oracle SQL</p>
                                     <p>MySQL</p>
+                                    <p>PostGre SQL</p>
                                 </div>
                             </div>
                             {/* <hr /> */}
@@ -70,7 +71,28 @@ const SkillsSet = () => {
                                 <div className="domain">
                                     <i class='bx bx-code' ></i><span>UI/UX : </span>
                                     <p>Figma</p>
+                                    <p>Adobe XD</p>
 
+                                </div>
+                            </div>
+                            {/* <hr /> */}
+                            <div className='skill-container'>
+
+                                <div className="domain">
+                                    <i class='bx bx-code' ></i><span>Game Design : </span>
+                                    <p>Unity</p>
+                                    <p>Unreal Engine</p>
+                                    <p>Blender</p>
+                                </div>
+                            </div>
+                            {/* <hr /> */}
+                            <div className='skill-container'>
+
+                                <div className="domain">
+                                    <i class='bx bx-code' ></i><span>Graphics Design : </span>
+                                    <p>Photoshop</p>
+                                    <p>Premiere Pro</p>
+                                    <p>Illustrator</p>
                                 </div>
                             </div>
                         </div>

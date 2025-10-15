@@ -9,8 +9,8 @@ const Hero = () => {
 
   function downloadPDF() {
     const link = document.createElement("a");
-    link.href = "/SHREYA_MISHRA_RESUME.pdf"; // Path from public folder
-    link.download = "Shreya_resume.pdf"; // Suggested file name
+    link.href = "/ASHAY_KUMAR_RESUME.pdf"; // Path from public folder
+    link.download = "Ashay_resume.pdf"; // Suggested file name
     link.click();
   }
   return (
@@ -18,13 +18,9 @@ const Hero = () => {
       <div className="profession-card card2"><span><i class='bx bx-code-block' ></i></span> Java Backend Dev </div>
       <div className="profession-card card4"><span><i class='bx bx-data'></i></span> SQL Developer</div>
       <section className='home-section'>
-        {/* <img className='img1' src="gradient.png" alt="" />
-        <img className='img2' src="gradient.png" alt="" />
-        <img className='img3' src="gradient.png" alt="" />
-        <img className='img4' src="gradient.png" alt="" /> */}
         <div className="left">
           <p className='profession'>Software Engineer </p>
-          <h1>Hello, I'm <span>Shreya Mishra</span> </h1>
+          <h1>Hello, I'm <span>Ashay Kumar</span> </h1>
           <p>A passionate software engineer and full stack developer crafting impactful, user-focused digital solutions.</p>
           <div className="btns">
             <button className="btn1" onClick={goToContact}>Contact <i class='bx bx-mail-send' ></i></button>
@@ -34,7 +30,8 @@ const Hero = () => {
         <div className="right">
           <div className='image'>
             <img className="curve" src="curve.png" alt="" width="400px" />
-            <img className="shreya" src="shreya-profile.png" alt="" width="500px" />
+            <img className="shreya" src="ashay-profile.png" alt=""/>
+            {/* <img className="shreya" src="shreya-profile.png" alt="" width="500px" /> */}
           </div>
         </div>
       </section>

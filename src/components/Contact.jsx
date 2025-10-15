@@ -14,21 +14,21 @@ const Contact = () => {
                         <div className='contact-details'>
 
                             <div className="mail">
-                                <i class='bx bxs-envelope' ></i><span>shreyamishratulip@gmail.com</span>
+                                <i class='bx bxs-envelope' ></i><span>ashaykr277@gmail.com</span>
                             </div>
                             <div className="num">
-                                <i class='bx bxs-phone-call' ></i><span>+91-7909007867</span>
+                                <i class='bx bxs-phone-call' ></i><span>+91-7980284758</span>
 
                             </div>
                             <div className="loc">
-                                <i class='bx bxs-home' ></i><span>Gurugram</span>
+                                <i class='bx bxs-home' ></i><span>Bengaluru</span>
                             </div>
 
                         </div>
                         <div className="links">
-                            <a href="https://www.linkedin.com/in/shreya-mishra-619629287/" target='_blank'><i class='bx bxl-linkedin-square'></i></a>
-                            <a href="https://github.com/shreya276" target='_blank'><i class='bx bxl-github' ></i></a>
-                            <a href="https://www.instagram.com/1316__shreya?igsh=eHZhNng3dHFjcmlr" target='_blank'><i class='bx bxl-instagram' ></i></a>
+                            <a href="https://www.linkedin.com/in/ashay-kumar-830411221/" target='_blank'><i class='bx bxl-linkedin-square'></i></a>
+                            <a href="https://github.com/ashaykr277" target='_blank'><i class='bx bxl-github' ></i></a>
+                            <a href="https://www.instagram.com/_astrobeatz_/" target='_blank'><i class='bx bxl-instagram' ></i></a>
                         </div>
                     </div>
 

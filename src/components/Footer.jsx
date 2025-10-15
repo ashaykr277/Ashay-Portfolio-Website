@@ -6,12 +6,12 @@ const Footer = () => {
         <>
             <div className='footer-section'>
                 <div className="links">
-                    <a href="https://www.linkedin.com/in/shreya-mishra-619629287/" target='_blank'><i class='bx bxl-linkedin-square'></i></a>
-                    <a href="https://github.com/shreya276" target='_blank'><i class='bx bxl-github' ></i></a>
-                    <a href="https://www.instagram.com/1316__shreya?igsh=eHZhNng3dHFjcmlr" target='_blank'><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://www.linkedin.com/in/ashay-kumar-830411221/" target='_blank'><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://github.com/ashaykr277" target='_blank'><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.instagram.com/_astrobeatz_/" target='_blank'><i class='bx bxl-instagram' ></i></a>
                 </div>
                 {/* <hr /> */}
-                <p>Copyright © Shreya Mishra. All rights reserved.</p>
+                <p>Copyright 2025 © Ashay Kumar. All rights reserved.</p>
             </div>
         </>
     )

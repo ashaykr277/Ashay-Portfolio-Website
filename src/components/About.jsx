@@ -17,10 +17,10 @@ const About = () => {
               <div className='personal-info'>
                 <div className='details details-left'>
                   <div className="name">
-                    <i class='bx bx-user' ></i><span>Shreya Mishra</span>
+                    <i class='bx bx-user' ></i><span>Ashay Kumar</span>
                   </div>
                   <div className="email">
-                    <i class='bx bx-envelope' ></i><span>shreyamishratulip@gmail.com</span>
+                    <i class='bx bx-envelope' ></i><span>ashaykr277@gmail.com</span>
                   </div>
                   <div className="degree">
                     <i class='bx bxs-graduation' ></i><span>B.Tech - Computer Science Engineering</span>
@@ -32,10 +32,10 @@ const About = () => {
                     <i class='bx bx-phone-call' ></i><span>+91 7909007867</span>
                   </div>
                   <div className="age">
-                    <i class='bx bx-calendar' ></i><span>22+</span>
+                    <i class='bx bx-calendar' ></i><span>23+</span>
                   </div>
                   <div className="location">
-                    <i class='bx bx-home' ></i><span>Gurugram, New Delhi</span>
+                    <i class='bx bx-home' ></i><span>Bengaluru, karnataka</span>
                   </div>
                 </div>
               </div>
@@ -74,14 +74,14 @@ const About = () => {
 
                       <br />
                       <li>
-                        <p className='institute' >D.A.V Public School</p>
+                        <p className='institute' >Sri Chaitanya Techno School</p>
                         <p className='course'>Intermediate</p>
                         <p className='year'>2018 - 2020</p>
                       </li>
 
                       <br />
                       <li>
-                        <p className='institute' >JLN Memorial Secondary <br /> School</p>
+                        <p className='institute' >B.D.M.International School <br /> School</p>
                         <p className='course'>Matriculation</p>
                         <p className='year'>2018</p>
                       </li>

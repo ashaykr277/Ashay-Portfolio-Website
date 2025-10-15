@@ -40,8 +40,8 @@ const Header = () => {
       <header>
         <div className="logo">
           <div className="s-logo">
-            <img className="S" src="./S-logo-set/S.png" alt="" />
-            <img className="brackets" src="./S-logo-set/s-brackets.png" alt="" />
+            <img className="S" src="./S-logo-set/Ashay logo.png" alt="ashay logo"/>
+            {/* <img className="brackets" src="./S-logo-set/s-brackets.png" alt="" /> */}
           </div>
         </div>
 
