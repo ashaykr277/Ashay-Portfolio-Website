@@ -14,7 +14,8 @@ const Hero = () => {
     link.click();
   }
   return (
-    <><div className="profession-card card1"><span><i class='bx bx-code-alt'></i></span> Web Developer</div>
+    <>
+    <div className="profession-card card1"><span><i class='bx bx-code-alt'></i></span> Web Developer</div>
       <div className="profession-card card2"><span><i class='bx bx-code-block' ></i></span> Java Backend Dev </div>
       <div className="profession-card card4"><span><i class='bx bx-data'></i></span> SQL Developer</div>
       <section className='home-section'>
